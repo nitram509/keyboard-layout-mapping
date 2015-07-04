@@ -31,10 +31,11 @@ First you need to download the ```speedlink-comet_trackball_mini_keyboard.xml```
 Then go to Karabiner preferences -> misc -> custom settings -> open private.xml.
 Alternativly, create&open ```~/Library/Application Support/Karabiner/private.xml```.
 
-
 ```xml
 <?xml version="1.0" ?>
 <root>
 	<include path="/Users/username/keyboard-layout-mapping/speedlink-comet_trackball_mini_keyboard.xml" />
 </root>
 ```
+
+After changing your private.xml file, you need to click 'reload xml' within Karabiner's preferences.
