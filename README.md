@@ -14,5 +14,5 @@ But as lots of my colleagues used to German layout,
 with two keyboards is hard to practice.
 
 To lower the barriers for two-keyboard-setups, I've built this keyboard mapping.
-It enables a German and English layout used simultaniusly via Karabiner tool.
+It enables a German and English layout used simultaneously via Karabiner tool.
 
