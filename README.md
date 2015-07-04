@@ -1,10 +1,6 @@
 
 Keyboard layout mappings for Karabiner
-========================================
-
-[Karabiner](https://pqrs.org/osx/karabiner/)
- is a powerful and stable keyboard customizer for OS X.
- 
+======================================== 
 
 Motivation 
 ----------------------------------------
@@ -15,6 +11,9 @@ with two keyboards is hard to practice.
 
 To lower the barriers for two-keyboard-setups, I've built this keyboard mapping.
 It enables a German and English layout used simultaneously via Karabiner tool.
+
+[Karabiner](https://pqrs.org/osx/karabiner/)
+ is a powerful and stable keyboard customizer for OS X.
 
 ![A German keyboard and an US keyboard working on one MacBookPro side by side with thir native layouts.](german_and_us_layout_working_side_by_side_on_one_Mac_OS_X.jpg?raw=true)
 
