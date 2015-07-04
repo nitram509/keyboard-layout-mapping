@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<root>
+	<devicevendordef>
+		<vendorname>Speedlink</vendorname>
+		<vendorid>0x05af</vendorid>
+	</devicevendordef>
+	<deviceproductdef>
+		<productname>Comet Trackball Mini Keyboard (SL-6497-SBK)</productname>
+		<productid>0x0906</productid>
+	</deviceproductdef>
+	<item>
+		<name>Map German layout for Comet Trackball Mini Keyboard (SL-6497-SBK)</name>
+		<identifier>private.deviceproductdef</identifier>
+		<device_only>DeviceVendor::Speedlink, DeviceProduct::Comet Trackball Mini Keyboard (SL-6497-SBK)</device_only>
+		<autogen>__KeyToKey__ KeyCode::Y, KeyCode::Z</autogen>
+		<autogen>__KeyToKey__ KeyCode::Z, KeyCode::Y</autogen>
+		<autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::MINUS</autogen>
+		<autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::SHIFT_R, KeyCode::DOT, ModifierFlag::SHIFT_R</autogen>
+		<autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>
+		<autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::OPTION_R, KeyCode::BACKSLASH, ModifierFlag::SHIFT_R</autogen>
+		<autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::COMMA, ModifierFlag::SHIFT_R</autogen>
+		<autogen>__KeyToKey__ KeyCode::COMMA, ModifierFlag::SHIFT_L, KeyCode::SEMICOLON</autogen>
+		<autogen>__KeyToKey__ KeyCode::COMMA, ModifierFlag::SHIFT_R, KeyCode::SEMICOLON</autogen>
+		<autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::SHIFT_L, KeyCode::SEMICOLON, ModifierFlag::SHIFT_L</autogen>
+		<autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::SHIFT_R, KeyCode::SEMICOLON, ModifierFlag::SHIFT_R</autogen>
+		<!-- <autogen>__KeyToKey__ KeyCode::M, ModifierFlag::OPTION_R, KeyCode:\xc2\xb5</autogen> -->
+		<autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::SHIFT_L, KeyCode::QUOTE</autogen>
+		<autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::SHIFT_R, KeyCode::QUOTE</autogen>
+		<autogen>__KeyToKey__ KeyCode::BACKSLASH, KeyCode::KEY_3, ModifierFlag::SHIFT_R</autogen>
+		
+		<autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::SHIFT_L, KeyCode::GERMAN_A_UMLAUT, ModifierFlag::SHIFT_L</autogen>
+		<autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::SHIFT_R, KeyCode::GERMAN_A_UMLAUT, ModifierFlag::SHIFT_L</autogen>
+		<autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::GERMAN_A_UMLAUT</autogen>
+		<autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_L, KeyCode::GERMAN_O_UMLAUT, ModifierFlag::SHIFT_L</autogen>
+		<autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_R, KeyCode::GERMAN_O_UMLAUT, ModifierFlag::SHIFT_L</autogen>
+		<autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::GERMAN_O_UMLAUT</autogen>
+
+		<!--
+			
+			-->
+	</item>
+</root>
