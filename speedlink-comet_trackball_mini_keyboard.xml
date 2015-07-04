@@ -23,20 +23,21 @@
 		<autogen>__KeyToKey__ KeyCode::COMMA, ModifierFlag::SHIFT_R, KeyCode::SEMICOLON</autogen>
 		<autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::SHIFT_L, KeyCode::SEMICOLON, ModifierFlag::SHIFT_L</autogen>
 		<autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::SHIFT_R, KeyCode::SEMICOLON, ModifierFlag::SHIFT_R</autogen>
-		<!-- <autogen>__KeyToKey__ KeyCode::M, ModifierFlag::OPTION_R, KeyCode:\xc2\xb5</autogen> -->
 		<autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::SHIFT_L, KeyCode::QUOTE</autogen>
 		<autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::SHIFT_R, KeyCode::QUOTE</autogen>
 		<autogen>__KeyToKey__ KeyCode::BACKSLASH, KeyCode::KEY_3, ModifierFlag::SHIFT_R</autogen>
-		
-		<autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::SHIFT_L, KeyCode::GERMAN_A_UMLAUT, ModifierFlag::SHIFT_L</autogen>
-		<autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::SHIFT_R, KeyCode::GERMAN_A_UMLAUT, ModifierFlag::SHIFT_L</autogen>
-		<autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::GERMAN_A_UMLAUT</autogen>
-		<autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_L, KeyCode::GERMAN_O_UMLAUT, ModifierFlag::SHIFT_L</autogen>
-		<autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_R, KeyCode::GERMAN_O_UMLAUT, ModifierFlag::SHIFT_L</autogen>
-		<autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::GERMAN_O_UMLAUT</autogen>
+		<autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_L, KeyCode::U, ModifierFlag::OPTION_R, KeyCode::O, ModifierFlag::SHIFT_L</autogen>
+		<autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_R, KeyCode::U, ModifierFlag::OPTION_R, KeyCode::O, ModifierFlag::SHIFT_R</autogen>
+		<autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::U, ModifierFlag::OPTION_R, KeyCode::O</autogen>
+		<autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::SHIFT_L, KeyCode::U, ModifierFlag::OPTION_R, KeyCode::A, ModifierFlag::SHIFT_L</autogen>
+		<autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::SHIFT_R, KeyCode::U, ModifierFlag::OPTION_R, KeyCode::A, ModifierFlag::SHIFT_R</autogen>
+		<autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::U, ModifierFlag::OPTION_R, KeyCode::A</aAtogen>
+		<autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L, KeyCode::U, ModifierFlag::OPTION_R, KeyCode::U, ModifierFlag::SHIFT_L</autogen>
+		<autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_R, KeyCode::U, ModifierFlag::OPTION_R, KeyCode::U, ModifierFlag::SHIFT_R</autogen>
+		<autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::U, ModifierFlag::OPTION_R, KeyCode::U</autogen>
 
 		<!--
-			
+
 			-->
 	</item>
 </root>
