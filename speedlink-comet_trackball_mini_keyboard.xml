@@ -9,7 +9,7 @@
 		<productid>0x0906</productid>
 	</deviceproductdef>
 	<item>
-		<name>Map German layout for Comet Trackball Mini Keyboard (SL-6497-SBK)</name>
+		<name>Map German layout for Comet Trackball Mini Keyboard (SL-6497-SBK) to U.S. Extended layout</name>
 		<identifier>private.deviceproductdef</identifier>
 		<device_only>DeviceVendor::Speedlink, DeviceProduct::Comet Trackball Mini Keyboard (SL-6497-SBK)</device_only>
 		<autogen>__KeyToKey__ KeyCode::Y, KeyCode::Z</autogen>
@@ -44,9 +44,16 @@
 		<autogen>__KeyToKey__ KeyCode::MINUS, KeyCode::S, ModifierFlag::OPTION_R</autogen>
 		<autogen>__KeyToKey__ KeyCode::EQUAL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::BACKQUOTE</autogen> <!-- grave accent, a.k.a. back tick, without being a dead key -->
 		<autogen>__KeyToKey__ KeyCode::EQUAL, KeyCode::E, ModifierFlag::OPTION_R, KeyCode::SPACE</autogen> <!-- acute accent, without being a dead key -->
-
-		<!--
-
-			-->
+		<autogen>__KeyToKey__ KeyCode::KEY_2, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::QUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+		<autogen>__KeyToKey__ KeyCode::KEY_3, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::GERMAN_CIRCUMFLEX</autogen>
+		<autogen>__KeyToKey__ KeyCode::KEY_6, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::KEY_7, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+		<autogen>__KeyToKey__ KeyCode::KEY_7, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::SLASH</autogen>
+		<autogen>__KeyToKey__ KeyCode::KEY_7, ModifierFlag::OPTION_R, KeyCode::BRACKET_LEFT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+		<autogen>__KeyToKey__ KeyCode::KEY_8, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::KEY_9, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+		<autogen>__KeyToKey__ KeyCode::KEY_8, ModifierFlag::OPTION_R, KeyCode::BRACKET_LEFT</autogen>
+		<autogen>__KeyToKey__ KeyCode::KEY_9, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::KEY_0, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+		<autogen>__KeyToKey__ KeyCode::KEY_9, ModifierFlag::OPTION_R, KeyCode::BRACKET_RIGHT</autogen>
+		<autogen>__KeyToKey__ KeyCode::KEY_0, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::EQUAL</autogen>
+		<autogen>__KeyToKey__ KeyCode::KEY_0, ModifierFlag::OPTION_R, KeyCode::BRACKET_RIGHT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
 	</item>
 </root>
