@@ -17,8 +17,8 @@
 		<autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::MINUS</autogen>
 		<autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::SHIFT_R, KeyCode::DOT, ModifierFlag::SHIFT_R</autogen>
 		<autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>
-		<autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::OPTION_R, KeyCode::BACKSLASH, ModifierFlag::SHIFT_R</autogen>
-		<autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::COMMA, ModifierFlag::SHIFT_R</autogen>
+		<autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::OPTION_R, KeyCode::BACKSLASH, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+		<autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::COMMA, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
 		<autogen>__KeyToKey__ KeyCode::COMMA, ModifierFlag::SHIFT_L, KeyCode::SEMICOLON</autogen>
 		<autogen>__KeyToKey__ KeyCode::COMMA, ModifierFlag::SHIFT_R, KeyCode::SEMICOLON</autogen>
 		<autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::SHIFT_L, KeyCode::SEMICOLON, ModifierFlag::SHIFT_L</autogen>
@@ -35,6 +35,15 @@
 		<autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L, KeyCode::U, ModifierFlag::OPTION_R, KeyCode::U, ModifierFlag::SHIFT_L</autogen>
 		<autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_R, KeyCode::U, ModifierFlag::OPTION_R, KeyCode::U, ModifierFlag::SHIFT_R</autogen>
 		<autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::U, ModifierFlag::OPTION_R, KeyCode::U</autogen>
+		<autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::KEY_8, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+		<autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::OPTION_R, KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+		<autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, KeyCode::EQUAL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+		<autogen>__KeyToKey__ KeyCode::DANISH_DOLLAR, KeyCode::KEY_6, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+		<autogen>__KeyToKey__ KeyCode::MINUS, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::SLASH, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+		<autogen>__KeyToKey__ KeyCode::MINUS, ModifierFlag::OPTION_R, KeyCode::BACKSLASH</autogen>
+		<autogen>__KeyToKey__ KeyCode::MINUS, KeyCode::S, ModifierFlag::OPTION_R</autogen>
+		<autogen>__KeyToKey__ KeyCode::EQUAL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::BACKQUOTE</autogen> <!-- grave accent, a.k.a. back tick, without being a dead key -->
+		<autogen>__KeyToKey__ KeyCode::EQUAL, KeyCode::E, ModifierFlag::OPTION_R, KeyCode::SPACE</autogen> <!-- acute accent, without being a dead key -->
 
 		<!--
 
